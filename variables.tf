@@ -121,3 +121,13 @@ variable "aws_iam_instance_profile" {
   type    = string
   default = ""
 }
+
+variable "aws_instance_subnet_id" {
+  type    = string
+  default = ""
+}
+
+variable "aws_instance_vpc_security_group_ids" {
+  type    = list(any)
+  default = []
+}
